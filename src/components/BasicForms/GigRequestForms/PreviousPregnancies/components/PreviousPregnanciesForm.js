@@ -165,7 +165,7 @@ export default withStyles(styles) (class NormalForm extends React.Component {
 
             
         <FormControl component="fieldset" className={classes.formControl}>
-               <h4> <b>How recently did you give birth? </b></h4>
+               <h4> <b>How recently have you given birth? </b></h4>
             <RadioGroup
               aria-label="recent_birthinfo"
               name="recent_birthinfo"
@@ -269,7 +269,7 @@ export default withStyles(styles) (class NormalForm extends React.Component {
                       label="Yes"
                     />
                 </RadioGroup>
-                <h3> When will you be finished? </h3>
+                <h3> If yes when will you be finished? </h3>
                 <RadioGroup
                     aria-label="breast_feeding_timePeriod"
                     name="breast_feeding_timePeriod"
@@ -357,7 +357,7 @@ export default withStyles(styles) (class NormalForm extends React.Component {
                       label="Yes"
                     />
                 </RadioGroup>
-                <h3> Select from options below </h3>
+                <h3> If yes, select from options below </h3>
                 <RadioGroup
                     aria-label="abnormality_description"
                     name="abnormality_description"
